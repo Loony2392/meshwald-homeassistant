@@ -16,6 +16,11 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
+          # "brands" verlangt einen gemergten Eintrag im offiziellen
+          # home-assistant/brands-Repo – das ist nur für die Aufnahme in den
+          # HACS-Standard-Store nötig, nicht für die Nutzung als eigenes
+          # "Custom Repository". Für dieses persönliche Projekt übersprungen.
+          ignore: "brands"
 
   hassfest:
     name: Hassfest
