@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect MeshWald",
+        "description": "Enter the base URL of your MeshWald backend and your personal API key (from the account area on the MeshWald website).",
+        "data": {
+          "base_url": "Base URL",
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "API key is invalid or has been revoked.",
+      "cannot_connect": "Could not connect to the MeshWald API."
+    },
+    "abort": {
+      "already_configured": "This API key is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Temperature" },
+      "humidity": { "name": "Humidity" },
+      "pressure": { "name": "Pressure" },
+      "iaq": { "name": "Air quality index" }
+    }
+  }
+}

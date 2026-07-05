@@ -1,0 +1,12 @@
+{
+  "domain": "meshwald",
+  "name": "MeshWald",
+  "codeowners": ["@Loony2392"],
+  "config_flow": true,
+  "documentation": "https://github.com/Loony2392/meshwald-homeassistant",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Loony2392/meshwald-homeassistant/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
