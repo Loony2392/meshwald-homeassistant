@@ -9,6 +9,15 @@ wird als eigenes Gerät mit vier Sensoren angelegt:
 - ⏲️ Luftdruck (hPa)
 - 🍃 Luftgüte (IAQ)
 
+[![Zu HACS hinzufügen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Loony2392&repository=meshwald-homeassistant&category=integration)
+[![Integration einrichten](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=meshwald)
+
+Die Buttons öffnen deine eigene Home-Assistant-Instanz (setzt die
+[My Home Assistant](https://www.home-assistant.io/integrations/my/)-Integration voraus):
+- **Zu HACS hinzufügen** – trägt dieses Repository als benutzerdefinierte HACS-Quelle ein
+- **Integration einrichten** – startet direkt den Einrichtungsdialog (erst nutzbar, wenn die
+  Integration bereits über HACS oder manuell installiert wurde)
+
 ## Voraussetzungen
 
 - Ein MeshWald-Account unter [meshwald.de](https://meshwald.de) (kostenlos)
